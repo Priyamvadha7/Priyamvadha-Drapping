@@ -1,0 +1,239 @@
+div#root{
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    position:sticky;
+    top: 0px;
+    background-color: white;
+    height: 10px;
+}
+.top{
+    display: grid;
+    grid-template-columns: 5% 10% 55% 30%;
+}
+#menu img{
+    padding:8px ;
+    padding-top: 20px;
+    width: 55px;
+}
+#head_logo{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.offcanvas-body ul li a {
+    padding: 10px 0;
+    display: block;
+    color: #333;
+    font-weight: 500;
+    transition: 0.2s;
+  }
+  
+  .offcanvas-body ul li a:hover {
+    color:white;
+    background-color: black;
+    text-decoration: none;
+  }
+.head{
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+    padding-top: 20px;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+    font-size: small;
+}
+.right{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+    padding-right: 50px;
+    padding-top: 35px;
+}
+.right a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.right a:hover{
+    background-color: black;
+    color: white;
+}
+
+.co{
+    color: red;
+}
+.row{
+    margin: 0px;
+    padding: 0px;
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 460px;
+    width: 500px;
+    /* background-color: rgb(0, 0, 0); */
+}
+#logo video{
+    width: 500px;
+    height: 460px;
+}
+#side #font{
+    font-size: 70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+#side{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+letter-spacing: 1px;
+height: 460px;
+}
+small{
+    color: gray;font-size:10px;
+}
+.carousel-inner img{
+ width: 300px;
+ height: 300px;
+}
+#ss img{
+    width: 60%;
+    height: 400px;
+}
+marquee{
+    background-color: black;
+    color: aliceblue;
+}
+.dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.bb{
+    display: grid;
+    grid-template-columns:repeat(4,27%);
+    row-gap: 50px;
+    width: 100%;
+}
+.bb img{  
+ height: 200px;
+ width: 200px;
+ }
+ .bb p{
+    font-family: "Smooch Sans", serif;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+ }
+ #drop a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+ }
+.bb div{
+    padding: 20px;
+    width: 200px;
+}
+#bubble:hover{
+    width:300px ;
+    height: 350px ;
+}
+#mg:hover{
+    width: 270px;
+    height: 220px;
+}
+#body-mid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#body-mid img{
+    padding-top: 50px;
+    width: 200px;
+    height: 300px;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+#latest{
+    color: rgb(111, 27, 34);
+    text-align: center;
+    font-size: 24px;
+    animation: blink 1s infinite;
+}
+#button{
+    display: flex;
+    justify-content: center;
+    /* padding-right:10px; */
+    color: white;
+}
+#button input:hover{
+    color: white;
+background-color:black;
+}
+#button input{
+    padding: 10px;
+    border-radius: 10px;
+}
+input:focus{
+color: black;
+background-color:lightgrey;
+}
+footer{
+    background-color: black;
+ }
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 20px;
+}
+footer #foot-head{
+    display: flex;
+    justify-items: left;
+    padding: 50px;
+}
+#foot-head span{
+ font-size: xx-small;
+ color: #bbb;
+}
+footer #foot-ol{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+#sub{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#em{
+    display: flex;}
+#foot-para{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    font-size: 15px;
+}
