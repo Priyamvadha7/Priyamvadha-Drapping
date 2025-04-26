@@ -1,0 +1,42 @@
+Dcard{
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel{
+    height: 600px; 
+    perspective: 400px;
+    margin-top: 5%;
+}
+.carousel .carousel-item {
+    height: 400px;
+    width: 400px;
+    color: black;
+    user-select: none;
+    /* padding: 35px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 40px #a1b9c0, 0 0 40px #b4c6cb, 0 0 40px #b1bcc0;
+    animation: animate 2s infinite alternate;
+}
+
+.carousel .carousel-item  .user-image {
+    width: 380px;
+    height: 380px;
+    border-radius: 15px;
+    padding: 4px;
+  }
+
+@keyframes animate {
+    to {
+      box-shadow: 0 0 50px #0a0c0c, 0 0 50px #0f1010, 0 0 50px #070808;
+    }
+  }
