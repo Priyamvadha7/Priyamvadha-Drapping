@@ -1,5 +1,7 @@
-<<<<<<< HEAD
-# React + Vite
+# Priyamvadha-Drapping
+Saree draping website
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -10,9 +12,5 @@ Currently, two official plugins are available:
 
 ## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Priyamvadha-Drapping
-=======
-# Priyamvadha-Drapping
-saree drapping website
->>>>>>> 5a3e4a9068dfacb15db11416a0d1b0dfe96466db
+If you are developing a production application, we recommend using TypeScript and enabling type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
