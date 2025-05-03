@@ -22,7 +22,7 @@ export default function Footer() {
     <p>subscribe</p><br/>
     <div id="em">
     <input type="email" placeholder="enter the email"/>
-    {/* <input type='sumbit' value="send" ></input> */}
+    <input type="submit" value="send" />
     </div>
 </div>
  </div><br/><br/>
@@ -63,17 +63,27 @@ export default function Footer() {
     <dd>Center of the belly insert the center pleats </dd>
     <dd>Adjust the saree</dd>
   </dl></div>
-  
-  <div>
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  </div>
-  {/* <iframe width="560" height="315" src="https://mdbootstrap.com/api/snippets/embed/2885134/fullscreen" frameborder="0"></iframe> */}
+  </div><hr/> 
+  <div className="social-icons-row">
+  <a href="https://www.instagram.com/your_instagram_id" target="_blank" rel="noreferrer">
+    <i className="fab fa-instagram fa-2x"></i>
+  </a>
+  <a href="https://wa.me/919XXXXXXXXX" target="_blank" rel="noreferrer">
+    <i className="fab fa-whatsapp fa-2x"></i>
+  </a>
+  <a href="https://www.facebook.com/your_facebook_id" target="_blank" rel="noreferrer">
+    <i className="fab fa-facebook fa-2x"></i>
+  </a>
+  <a href="https://twitter.com/your_twitter_id" target="_blank" rel="noreferrer">
+    <i className="fab fa-twitter fa-2x"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/your_linkedin_id" target="_blank" rel="noreferrer">
+    <i className="fab fa-linkedin fa-2x"></i>
+  </a>
+</div>
+
+
+ 
 </footer>
  </>
   )
